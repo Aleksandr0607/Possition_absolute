@@ -16,10 +16,10 @@ body {
 
 header {
   position: fixed;
-  top: 50px;
+  background-color: white;
   left: 145px;
   width: 79%;
-  margin: 0 auto;
+  margin: 50px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +69,6 @@ header {
 .btn_sign {
   width: 155px;
   height: 45px;
-
   border: 1px solid #f53855;
   border-radius: 50px;
   display: flex;
@@ -133,53 +132,48 @@ header {
 }
 .footer {
   width: 1140px;
-  height: 200px;
+  height: 150px;
   margin-top: 145px;
   margin-left: 150px;
   width: 79%;
   display: flex;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-}
-.list_sec {
-  display: flex;
-  margin-top: 145 px;
-}
-.people,
-.location {
-  border-right: 2px solid #eeeff2;
-}
-.people li {
-  width: 53px;
-  height: 65px;
-  font-size: 25px;
-  padding: 70px;
 }
 
-.people::before {
-  content: url(img/user@2x.svg);
-  vertical-align: middle;
+.people,
+.location,
+.server {
+  display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: start;
+}
+.people_i,
+.location_i,
+.server_i {
   width: 55px;
   height: 55px;
-  margin: 72.5px 36.5px 72.5px 91px;
+}
+.people_p,
+.location_p,
+.server_p {
+  width: auto;
+  margin-left: 36.5px;
+  font-size: 20px;
+  color: #4f5665;
+  line-height: 30px;
+}
+b {
+  font-size: 25px;
+  color: black;
+}
+.location {
+  /* width: auto; */
+  /* height: 200px; */
+  border-left: 2px solid #eeeff2;
+  border-right: 2px solid #eeeff2;
+  line-height: 126px;
 }
 
-.location::before {
-  content: url(img/location.svg);
-  vertical-align: middle;
-  align-items: center;
-  width: 55px;
-  margin-right: 36.5px;
-}
-.Server::before {
-  content: url(img/Server.svg);
-  vertical-align: middle;
-  align-items: center;
-  width: 55px;
-  margin-right: 36.5px;
-}
 .man_text {
   display: flex;
 }
