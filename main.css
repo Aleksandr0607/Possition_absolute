@@ -1,0 +1,169 @@
+* {
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  text-decoration: none;
+  list-style: none;
+  list-style-type: none;
+}
+body {
+  height: 5000px;
+}
+
+header {
+  position: fixed;
+  top: 50px;
+  left: 145px;
+  width: 79%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* background-color: white;
+} */
+.vpn p::before {
+  content: url(img/fire.svg);
+  vertical-align: middle;
+  width: 36px;
+  height: 36px;
+  margin-right: 6.12px;
+}
+.vpn span {
+  font-weight: 700;
+}
+.vpn {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.list {
+  width: auto;
+  display: flex;
+  font-size: 16px;
+  font-weight: 400;
+  justify-content: space-between;
+}
+
+.list li {
+  margin-left: 40px;
+}
+
+.Sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.Sign p {
+  width: 53px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 30px;
+}
+.btn_sign {
+  width: 155px;
+  height: 45px;
+
+  border: 1px solid #f53855;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_2 {
+  font-size: 16px;
+  color: #f53855;
+  font-weight: 700;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 207px;
+  margin-left: 138px;
+}
+
+.main_title {
+  margin-top: 40px;
+  font-size: 50px;
+  font-weight: 500;
+  color: #0b132a;
+}
+.main_title span {
+  font-weight: 700;
+}
+.first_paragraf {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 555px;
+  height: auto;
+  line-height: 30px;
+  color: #4f5665;
+  margin-bottom: 50px;
+}
+.btn_1 {
+  position: relative;
+  width: 250px;
+  height: 55px;
+  background-color: #f53838;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.f_btn {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+}
+.shadow {
+  position: absolute;
+  top: 470.06px;
+  width: 250px;
+  height: 86px;
+}
+.footer {
+  width: 79%;
+}
+.list_sec {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.people,
+.location {
+  border-right: 1px solid #eeeff2;
+}
+.people li {
+  width: 53px;
+  font-size: 25px;
+}
+
+.people::before {
+  content: url(img/user@2x.svg);
+  vertical-align: middle;
+  align-items: center;
+  width: 55px;
+  margin-right: 36.5px;
+}
+
+.location::before {
+  content: url(img/location.svg);
+  vertical-align: middle;
+  align-items: center;
+  width: 55px;
+  margin-right: 36.5px;
+}
+.Server::before {
+  content: url(img/Server.svg);
+  vertical-align: middle;
+  align-items: center;
+  width: 55px;
+  margin-right: 36.5px;
+}
