@@ -106,8 +106,9 @@ header {
   color: #4f5665;
   margin-bottom: 50px;
 }
-.btn_1 {
+.btn_1 a {
   position: relative;
+  z-index: 1;
   width: 250px;
   height: 55px;
   background-color: #f53838;
@@ -181,11 +182,13 @@ header {
   display: flex;
 }
 .body_m {
+  position: absolute;
   width: 239.87px;
   height: 184.22px;
-  position: absolute;
   top: 375.85px;
   left: 847.92px;
+  gap: 0px;
+  opacity: 0px;
 }
 .head {
   position: absolute;
