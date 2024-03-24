@@ -16,22 +16,29 @@ body {
 
 header {
   position: fixed;
+  z-index: 10;
   background-color: white;
   left: 145px;
   width: 79%;
-  margin: 50px auto;
+  height: 100px;
+  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 /* background-color: white;
 } */
+.man_text {
+  display: flex;
+  width: 79%;
+}
 .vpn p::before {
   content: url(img/fire.svg);
   vertical-align: middle;
   width: 36px;
   height: 36px;
   margin-right: 6.12px;
+  margin-left: 20px;
 }
 .vpn span {
   font-weight: 700;
@@ -85,7 +92,7 @@ header {
   display: flex;
   flex-direction: column;
   margin-top: 207px;
-  margin-left: 138px;
+  margin-left: 140px;
 }
 
 .main_title {
@@ -174,9 +181,6 @@ b {
   line-height: 126px;
 }
 
-.man_text {
-  display: flex;
-}
 .body_m {
   position: absolute;
   width: 239.87px;
@@ -213,7 +217,7 @@ b {
   position: absolute;
   width: 88.39px;
   height: 163.4px;
-  top: 354.64px;
+  top: 356px;
   left: 1063.87px;
 }
 .laptop {
