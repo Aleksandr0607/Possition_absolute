@@ -129,20 +129,29 @@ header {
   height: 86px;
 }
 .footer {
+  width: 1140px;
+  height: 200px;
+  margin-top: 145px;
+  margin-left: 150px;
   width: 79%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
 }
 .list_sec {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  margin-top: 145 px;
 }
 .people,
 .location {
-  border-right: 1px solid #eeeff2;
+  border-right: 2px solid #eeeff2;
 }
 .people li {
   width: 53px;
+  height: 65px;
   font-size: 25px;
+  padding: 70px;
 }
 
 .people::before {
@@ -150,7 +159,8 @@ header {
   vertical-align: middle;
   align-items: center;
   width: 55px;
-  margin-right: 36.5px;
+  height: 55px;
+  margin: 72.5px 36.5px 72.5px 91px;
 }
 
 .location::before {
@@ -166,4 +176,103 @@ header {
   align-items: center;
   width: 55px;
   margin-right: 36.5px;
+}
+.man_text {
+  display: flex;
+}
+.body_m {
+  width: 239.87px;
+  height: 184.22px;
+  position: absolute;
+  top: 375.85px;
+  left: 847.92px;
+}
+.head {
+  position: absolute;
+  width: 92.53px;
+  height: 96.46px;
+  top: 266.93px;
+  left: 935.54px;
+}
+
+.head_m {
+  position: absolute;
+  width: 106.24px;
+  height: 112.5px;
+  top: 237.66px;
+  left: 926.29px;
+}
+
+.sh_m {
+  position: absolute;
+  width: 47.8px;
+  height: 59.89px;
+  top: 347.29px;
+  left: 958.89px;
+}
+.hand_up {
+  position: absolute;
+  width: 88.39px;
+  height: 163.4px;
+  top: 354.64px;
+  left: 1063.87px;
+}
+.laptop {
+  position: absolute;
+  width: 162px;
+  height: 93.76px;
+  top: 466.31px;
+  left: 1065.76px;
+}
+.lamp {
+  position: absolute;
+  width: 135.17px;
+  height: 186.64px;
+  top: 373.43px;
+  left: 1221.83px;
+}
+.cup {
+  position: absolute;
+  width: 69.33px;
+  height: 59.07px;
+  top: 501px;
+  left: 756.14px;
+}
+.diagram {
+  position: absolute;
+  width: 112.92px;
+  height: 82.37px;
+  top: 245.16px;
+  left: 1181.81px;
+}
+
+.n {
+  position: absolute;
+  width: 69.96px;
+  height: 54.56px;
+  top: 312.95px;
+  left: 814.62px;
+}
+.player {
+  position: absolute;
+  width: 75.79px;
+  height: 59.1px;
+  top: 179.23px;
+  left: 1067.69px;
+}
+.dim {
+  position: absolute;
+  width: 68.86px;
+  height: 108.95px;
+  top: 383.63px;
+  left: 745.76px;
+}
+.part_hair {
+  position: absolute;
+  width: 33.59px;
+  height: 22.71px;
+  top: 243.61px;
+  left: 918.9px;
+  gap: 0px;
+  opacity: 0px;
 }
