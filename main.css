@@ -1,7 +1,7 @@
 * {
   width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Rubik", sans-serif;
@@ -21,6 +21,7 @@
 .main {
   width: 79.1%;
   display: flex;
+  margin: 0 auto;
 }
 header {
   position: fixed;
@@ -308,7 +309,6 @@ b {
   margin-top: 150px;
   display: flex;
   flex-direction: column;
-  margin-left: 185px;
 }
 
 .sec_main_title {
